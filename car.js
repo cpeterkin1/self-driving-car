@@ -13,6 +13,8 @@ class Car {
         this.controls = new Controls();
     }
 
+    // left off at 23:37 of video -- 8/19/23
+
     update(){
         if (this.controls.forward) {
             this.speed+=this.acceleration
