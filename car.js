@@ -33,21 +33,25 @@ class Car {
                 this.acceleration=0.25
                 this.maxSpeed = 3.3
                 this.friction = 0.05 // 'Aerodynamics' in UI
+                this.color = red
                 break;
             case 'mclaren':
                 this.acceleration=0.26
                 this.maxSpeed = 3.2
                 this.friction = 0.03
+                this.color = yellow
                 break;
             case 'mercedes':
                 this.acceleration=0.23
                 this.maxSpeed = 3.4
                 this.friction = 0.05
+                this.color = ? teal ?
                 break;
             case 'red bull':
                 this.acceleration=0.27
                 this.maxSpeed = 3.3
                 this.friction = 0.05
+                this.color = ? dark blue ?
                 break;
         }
 
