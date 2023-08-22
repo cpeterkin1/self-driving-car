@@ -15,6 +15,50 @@ class Car {
 
     // left off at 23:37 of video -- 8/19/23
 
+    /* DIFFERENT CAR TYPES IDEA */
+
+    // new Car(100,100,30,50,'ferrari')
+    // new Car(100,100,30,50,'mclaren')
+    // new Car(100,100,30,50,'mercedes')
+    // new Car(100,100,30,50,'red bull')
+
+    /*constructor(x, y, width, height, type) {
+        this.x=x;
+        this.y=y
+        this.width=width
+        this.height=height
+
+        switch (type) {
+            case 'ferrari':
+                this.acceleration=0.25
+                this.maxSpeed = 3.3
+                this.friction = 0.05 // 'Aerodynamics' in UI
+                break;
+            case 'mclaren':
+                this.acceleration=0.26
+                this.maxSpeed = 3.2
+                this.friction = 0.03
+                break;
+            case 'mercedes':
+                this.acceleration=0.23
+                this.maxSpeed = 3.4
+                this.friction = 0.05
+                break;
+            case 'red bull':
+                this.acceleration=0.27
+                this.maxSpeed = 3.3
+                this.friction = 0.05
+                break;
+        }
+
+        this.speed=0
+        // this.acceleration=0.2
+        // this.maxSpeed=3;
+        // this.friction=0.05
+
+        this.controls = new Controls();
+    }*/
+
     update(){
         if (this.controls.forward) {
             this.speed+=this.acceleration
