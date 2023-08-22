@@ -39,7 +39,7 @@ class Car {
                 this.acceleration=0.26
                 this.maxSpeed = 3.2
                 this.friction = 0.03
-                this.color = yellow
+                this.color = ? mercedes orange ?
                 break;
             case 'mercedes':
                 this.acceleration=0.23
