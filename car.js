@@ -22,7 +22,7 @@ class Car {
     // new Car(100,100,30,50,'mercedes')
     // new Car(100,100,30,50,'red bull')
 
-    /*constructor(x, y, width, height, type) {
+    /*constructor(x, y, width, height, type='mclaren') {
         this.x=x;
         this.y=y
         this.width=width
